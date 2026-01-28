@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Simple PDF parser to extract text and tables to CSV."
 readme = "README.md"
 requires-python = ">=3.9"
-authors = [{ name = "Your Name" }]
+authors = [{ name = "Daniel Wondyifraw" }]
 dependencies = [
   "pdfplumber",
   "pandas",
