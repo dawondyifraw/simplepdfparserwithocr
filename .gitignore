@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/pdfs/*.pdf
+data/extracted_content.csv

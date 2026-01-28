@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdfparser"
+version = "0.1.0"
+description = "Simple PDF parser to extract text and tables to CSV."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Your Name" }]
+dependencies = [
+  "pdfplumber",
+  "pandas",
+  "pdf2image",
+  "pytesseract",
+]
+
+[project.scripts]
+pdfparser = "pdfparser.cli:main"
+
+[tool.setuptools]
+packages = ["pdfparser"]
