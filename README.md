@@ -1,6 +1,6 @@
 # PDFParser
 
-Simple PDF parser that extracts text and tables to a CSV.
+Simple PDF parser that extracts text and tables to a CSV, with OCR fallback.
 
 ## Install
 
@@ -32,3 +32,14 @@ from pdfparser import parse_pdfs
 
 parse_pdfs(data_dir="./data")
 ```
+
+## Dependencies
+
+- `pdfplumber`
+- `pdf2image`
+- `pytesseract`
+- `pandas`
+
+## License
+
+MIT
