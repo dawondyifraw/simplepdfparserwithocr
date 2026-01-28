@@ -55,7 +55,7 @@ parse_pdfs(data_dir="./data")
 ## Tests
 
 ```bash
-python -m unittest discover -s tests -v
+./scripts/run_tests.sh
 ```
 
 ## Output columns
