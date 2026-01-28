@@ -52,6 +52,12 @@ parse_pdfs(data_dir="./data")
 - `pytesseract`
 - `pandas`
 
+## Tests
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 ## Output columns
 
 The CSV includes file metadata (size, modified time, total pages) plus per-page OCR info.
